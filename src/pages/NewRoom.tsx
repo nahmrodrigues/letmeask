@@ -13,7 +13,7 @@ import "../styles/auth.scss";
 
 export function NewRoom(){
   const history = useHistory();
-  const { user, signInWithGoogle } = useAuth();
+  const { user } = useAuth();
   const [ newRoom, setNewRoom ] = useState('');
 
   async function handleCreateRoom(event: FormEvent) {
