@@ -1,9 +1,8 @@
 import { useParams } from "react-router-dom";
-import { FormEvent, useState } from "react";
+import { useState } from "react";
 
 import { useAuth } from "../hooks/useAuth";
 import { useRoom } from "../hooks/useRoom";
-import { database } from "../services/firebase";
 
 import { RoomCode } from "../components/RoomCode";
 import { Question } from "../components/Question";
